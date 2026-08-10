@@ -1,0 +1,55 @@
+﻿# ============ NODE / REACT ============
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.production
+npm-debug.log*
+
+# ============ .NET / C# ============
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# ============ DATABASE ============
+*.db
+*.db-shm
+*.db-wal
+musiclab.db
+
+# ============ UPLOADS / USER FILES ============
+wwwroot/uploads/
+wwwroot/separated/
+Backend/MusicLab.Api/wwwroot/uploads/
+Backend/MusicLab.Api/wwwroot/separated/
+
+# ============ PYTHON ============
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# ============ IDE ============
+.vscode/
+.idea/
+*.swp
+
+# ============ OS ============
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ============ LARGE FILES ============
+*.mp3
+*.wav
+*.flac
+*.zip
+
+# ============ TEMP ============
+request.json
+test_output/
